@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        Todos los P que esten dentro de div
+         */
+        div p {
+            color:lime;
+        }
+        /*Para que sea con el hijo directo */
+        div > div {
+            background-color: crimson;
+        }
+        .es {
+            background: forestgreen;
+        }
+/* elementos adyacentes */
+        div + section{
+            background: palevioletred;
+        }
+
+        /*elementos hermanos */
+        div ~ p {
+            background: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>Parrafo en div</p>
+        <p>es increible</p>
+        <p>lo basico que se</p>
+    </div> -->
+<div>
+    <p>Platzi</p>
+    <div>es</div>
+    <div class="es">increible</div>
+</div>
+<p>clase de selctores</p>
+<p>clase de selctores</p>
+<div>
+    Master
+</div>
+<section>
+    es lo mejor
+</section>
+
+</body>
+</html>
